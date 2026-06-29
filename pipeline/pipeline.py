@@ -1,4 +1,8 @@
 import sys
 import pathlib
 
-print('This is done on 28-06 need to do more')
+print("arguments", sys.argv)
+
+month = sys.argv[1]
+
+print(f"Hello testing eoth passing arguments {month}")
